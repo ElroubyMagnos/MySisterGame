@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="KarmaV2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:KarmaV2"
+    Shell.FlyoutBehavior="Flyout">
+
+    <ShellContent
+        Title="Game Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" 
+        Icon="apple.png"/>
+
+    <ShellContent
+        Title="Game Test"
+        ContentTemplate="{DataTemplate local:GameTest}"
+        Route="GameTest"
+        Icon="five.png"/>
+
+    <ShellContent
+        Title="Arabic Home"
+        ContentTemplate="{DataTemplate local:ARNumbers}"
+        Route="ARNumbers"
+        Icon="apple.png"/>
+
+    <ShellContent
+        Title="Arabic Test"
+        ContentTemplate="{DataTemplate local:ARNumbersTest}"
+        Route="ARNumbersTest" 
+        Icon="five_ar.png"/>
+
+    <ShellContent
+        Title="Big and Small"
+        ContentTemplate="{DataTemplate local:BSGame}"
+        Route="BSGame" 
+        Icon="star.png"/>
+
+    <ShellContent
+        Title="Number Between"
+        ContentTemplate="{DataTemplate local:NumberBetween}"
+        Route="NumberBetween" 
+        Icon="bet.jpg"/>
+
+    <ShellContent
+        Title="Coins"
+        ContentTemplate="{DataTemplate local:Coins}"
+        Route="Coins" 
+        Icon="coin.png"/>
+</Shell>

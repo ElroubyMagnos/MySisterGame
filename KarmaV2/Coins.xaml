@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KarmaV2.Coins"
+             Title="Coins">
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <Image WidthRequest="250" HeightRequest="250" Source="coin.png" />
+            <Label FontSize="50" x:Name="m" Text="0"/>
+        </HorizontalStackLayout>
+        <Button x:Name="wd" Text="Withdraw" Clicked="wd_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

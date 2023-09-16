@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KarmaV2.ARNumbersTest"
+             Title="ARNumbersTest">
+    <ScrollView>
+        <VerticalStackLayout HorizontalOptions="Center">
+            <HorizontalStackLayout>
+                <Button x:Name="Voice" ImageSource="mic.png" WidthRequest="350" HeightRequest="200" Clicked="Voice_Clicked"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="Zero" ImageSource="zero_ar.png" WidthRequest="150" HeightRequest="150" Clicked="Zero_Clicked"/>
+                <Button x:Name="One" ImageSource="one_ar.png" WidthRequest="150" HeightRequest="150" Clicked="One_Clicked"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="Two" ImageSource="two_ar.png" WidthRequest="150" HeightRequest="150" Clicked="Two_Clicked"/>
+                <Button x:Name="Three" ImageSource="three_ar.png" WidthRequest="150" HeightRequest="150" Clicked="Three_Clicked"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="Four" ImageSource="four_ar.png" WidthRequest="150" HeightRequest="150" Clicked="Four_Clicked"/>
+                <Button x:Name="Five" ImageSource="five_ar.png" WidthRequest="150" HeightRequest="150" Clicked="Five_Clicked"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="Six" ImageSource="six_ar.png" WidthRequest="150" HeightRequest="150" Clicked="Six_Clicked"/>
+                <Button x:Name="Seven" ImageSource="seven_ar.png" WidthRequest="150" HeightRequest="150" Clicked="Seven_Clicked"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="Eight" ImageSource="eight_ar.png" WidthRequest="150" HeightRequest="150" Clicked="Eight_Clicked"/>
+                <Button x:Name="Nine" ImageSource="nine_ar.png" WidthRequest="150" HeightRequest="150" Clicked="Nine_Clicked"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

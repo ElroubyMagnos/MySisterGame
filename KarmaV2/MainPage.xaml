@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KarmaV2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout HorizontalOptions="Center">
+            <HorizontalStackLayout>
+                <Button x:Name="Zero" ImageSource="zero.png" WidthRequest="150" HeightRequest="150" Clicked="Zero_Clicked"/>
+                <Image WidthRequest="200" HeightRequest="150" Source=""/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="One" ImageSource="one.png" WidthRequest="150" HeightRequest="150" Clicked="One_Clicked"/>
+                <Image WidthRequest="200" HeightRequest="150" Source="apple.png"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="Two" ImageSource="two.png" WidthRequest="150" HeightRequest="150" Clicked="Two_Clicked"/>
+                <Image WidthRequest="200" HeightRequest="150" Source="apple2.png"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="Three" ImageSource="three.png" WidthRequest="150" HeightRequest="150" Clicked="Three_Clicked"/>
+                <Image WidthRequest="200" HeightRequest="150" Source="apple3.png"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="Four" ImageSource="four.png" WidthRequest="150" HeightRequest="150" Clicked="Four_Clicked"/>
+                <Image WidthRequest="200" HeightRequest="150" Source="apple4.png"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="Five" ImageSource="five.png" WidthRequest="150" HeightRequest="150" Clicked="Five_Clicked"/>
+                <Image WidthRequest="200" HeightRequest="150" Source="apple5.png"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="Six" ImageSource="six.png" WidthRequest="150" HeightRequest="150" Clicked="Six_Clicked"/>
+                <Image WidthRequest="200" HeightRequest="150" Source="apple6.png"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="Seven" ImageSource="seven.png" WidthRequest="150" HeightRequest="150" Clicked="Seven_Clicked"/>
+                <Image WidthRequest="200" HeightRequest="150" Source="apple7.png"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="Eight" ImageSource="eight.png" WidthRequest="150" HeightRequest="150" Clicked="Eight_Clicked"/>
+                <Image WidthRequest="200" HeightRequest="150" Source="apple8.png"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Button x:Name="Nine" ImageSource="nine.png" WidthRequest="150" HeightRequest="150" Clicked="Nine_Clicked"/>
+                <Image WidthRequest="200" HeightRequest="150" Source="apple9.png"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
